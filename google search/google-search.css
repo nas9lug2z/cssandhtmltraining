@@ -54,3 +54,8 @@ button[type="submit"]:active
   color: #333;
   box-shadow: 0px 0px 2px 0px rgba(133,133,133,0.2)
 }
+
+button[type="submit"]:focus{
+  border: 1px solid #4d90fe;
+  box-shadow: 0px 0px 2px 0px
+}
