@@ -1,3 +1,17 @@
+p {
+  font: 13px arial,sans-serif;
+  color: #333;
+}
+
+a{
+  text-decoration: none;
+  margin: 2px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
 .google-logo{
   display: block;
   margin: 180px auto 20px auto;
