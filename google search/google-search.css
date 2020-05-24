@@ -1,0 +1,15 @@
+#google-logo{
+  display: block;
+  margin: 200px auto 20px auto;
+}
+
+input{
+  width: 600px;
+  padding: 15px 30px;
+  border: 1px solid #CCCCCC;
+  border-radius: 30px;
+}
+
+input:focus{
+  outline: 0;
+}
