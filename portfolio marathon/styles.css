@@ -1,0 +1,50 @@
+*{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+:root{
+  --main-color: #7652da;
+  --second-color: #ffd67f;
+  --third-color: #fa5d5e;
+  --black-color: #504c5c;
+}
+
+header{
+  display: grid;
+  grid-template-columns: 2;
+  background-color: var(--second-color);
+  position: sticky;
+  top: 0;
+  padding: 1.6em;
+}
+
+.logo{
+  height: 4em;
+  grid-column: 1;
+}
+
+nav{
+  grid-column: 2;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li{
+  padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+main{
+  width: 400px;
+}
