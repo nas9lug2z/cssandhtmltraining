@@ -66,6 +66,11 @@ nav ul{
   border-radius: 5px;
 }
 
+
+main{
+  padding: 0;
+}
+
 .hero{
   text-align: center;
   display: block;
@@ -88,6 +93,10 @@ nav ul{
   color: var(--first-color);
 }
 
-main{
-  padding: 0;
+.next-run{
+
+}
+
+.countdown{
+  display: flex;
 }
