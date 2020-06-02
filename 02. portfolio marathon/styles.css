@@ -3,7 +3,7 @@
 }
 
 :root{
-  --main-color: #7652da;
+  --first-color: #7652da;
   --second-color: #ffd67f;
   --third-color: #fa5d5e;
   --black-color: #504c5c;
@@ -11,8 +11,12 @@
 
 a{
   text-decoration: none;
+  color: inherit;
 }
 
+h1{
+  font-weight: 800;
+}
 
 header{
   display: grid;
@@ -36,23 +40,54 @@ nav ul{
   list-style: none;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .main-menu-item{
-  padding: 1em;
+  padding: 0.5em 1.5em;
   text-transform: uppercase;
   color: var(--first-color);
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 0.9em;
 }
 
+.main-menu-item:active,
+.main-menu-item:hover,
+.main-menu-item:focus,
+.current{
+  color: #fff;
+}
 
+.main-menu-item-button{
+  display: block;
+  background-color: white;
+  color: var(--first-color);
+  padding: 15px 20px;
+  border-radius: 5px;
+}
 
+.hero{
+  text-align: center;
+  display: block;
+  background-color: var(--second-color);
+  background-image: url(images/slider.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 40em;
+}
 
+.hero > h1{
+  font-size: 3.4em;
+  padding: 2% 17%;
+  color: #fff;
+  margin: 0;
+}
 
-
-
-
+.hero > h1 > span{
+  color: var(--first-color);
+}
 
 main{
-  width: 400px;
+  padding: 0;
 }
