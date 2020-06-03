@@ -30,7 +30,6 @@ h1{
 
 h2{
   font-size: 3em;
-  text-transform: lowercase;
   margin-top: 0;
 }
 
@@ -38,6 +37,22 @@ h3{
   font-size: 1.2em;
   text-transform: uppercase;
   color: var(--grey-color);
+}
+
+h6{
+  font-size: 1em;
+}
+
+p{
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 1.5em 0;
+}
+
+li{
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 1.3em;
 }
 
 .purple-text{
@@ -196,3 +211,33 @@ main{
 
 
 /*countdown row END*/
+
+/*city map row*/
+.map-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  grid-gap: 2em;
+  gap: 2em;
+  padding: 2em;
+}
+
+.map-img{
+  grid-column: 1;
+  width: 500px;
+}
+
+.map-img-div{
+  text-align: right;
+}
+
+.map-text{
+  grid-column: 2;
+  text-align: left;
+  width: 30em;
+}
+
+.fas{
+  color: var(--first-color);
+}
+/*city map row END*/
