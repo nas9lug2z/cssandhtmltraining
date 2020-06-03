@@ -241,3 +241,18 @@ main{
   color: var(--first-color);
 }
 /*city map row END*/
+
+
+/*details row*/
+
+.yellow-row{
+  background-color: var(--second-color);
+}
+
+.details-grid{
+  background-image: url(images/marathon-details-bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*details row end*/
