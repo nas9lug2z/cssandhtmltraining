@@ -1,12 +1,22 @@
-*{
-  font-family: 'Montserrat Alternates', sans-serif;
-}
+/*Generic CSS*/
+
 
 :root{
   --first-color: #7652da;
   --second-color: #ffd67f;
   --third-color: #fa5d5e;
-  --black-color: #504c5c;
+  --black-color: #343434;
+  --grey-color: #d2cddd;
+}
+
+/*Generic CSS End*/
+
+/*text-related*/
+
+*{
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: var(--black-color);
+  font-weight: 800;
 }
 
 a{
@@ -15,8 +25,75 @@ a{
 }
 
 h1{
-  font-weight: 800;
+  font-size: 3.4em;
 }
+
+h2{
+  font-size: 3em;
+  text-transform: lowercase;
+  margin-top: 0;
+}
+
+h3{
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: var(--grey-color);
+}
+
+.purple-text{
+  color: var(--first-color);
+}
+
+.yellow-text{
+  color: var(--second-color);
+}
+
+.font-400{
+  font-weight: 400;
+}
+
+/*text-related END*/
+
+/*buttons*/
+
+.white-button{
+  display: block;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: var(--first-color);
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.purple-button{
+  display: block;
+  text-transform: uppercase;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.grey-button{
+  display: block;
+  text-transform: uppercase;
+  background-color: var(--grey-color);
+  color: var(--first-color);
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.grey-button:hover{
+  background-color: #bebbc9;
+}
+
+/*buttons END*/
+
+
+/*header and menu*/
 
 header{
   display: grid;
@@ -27,7 +104,7 @@ header{
   padding: 1.3em;
 }
 
-.logo{
+.logo-img{
   height: 4em;
   grid-column: 1;
 }
@@ -47,7 +124,6 @@ nav ul{
   padding: 0.5em 1.5em;
   text-transform: uppercase;
   color: var(--first-color);
-  font-weight: 800;
   font-size: 0.9em;
 }
 
@@ -58,18 +134,21 @@ nav ul{
   color: #fff;
 }
 
-.main-menu-item-button{
-  display: block;
-  background-color: white;
-  color: var(--first-color);
-  padding: 15px 20px;
-  border-radius: 5px;
-}
 
+/*header and menu END*/
+
+/*main page CSS*/
 
 main{
   padding: 0;
 }
+
+.row{
+  text-align: center;
+  padding: 4em 1em;
+}
+
+/*hero row*/
 
 .hero{
   text-align: center;
@@ -83,20 +162,37 @@ main{
 }
 
 .hero > h1{
-  font-size: 3.4em;
   padding: 2% 17%;
   color: #fff;
   margin: 0;
 }
 
-.hero > h1 > span{
-  color: var(--first-color);
-}
+/*hero row END*/
 
-.next-run{
 
-}
+/*countdown row*/
 
 .countdown{
   display: flex;
+  justify-content: center;
 }
+
+.dhms{
+  display: block;
+  margin: 2em 4.5em;
+
+}
+
+.countdown-numbers{
+  font-size: 3.7em;
+  display: block;
+  color: #444;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+
+/*countdown row END*/
