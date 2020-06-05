@@ -49,11 +49,6 @@ p{
   margin: 1.5em 0;
 }
 
-li{
-  font-size: 0.9em;
-  font-weight: 400;
-  margin: 1.3em;
-}
 
 .purple-text{
   color: var(--first-color);
@@ -67,9 +62,17 @@ li{
   font-weight: 400;
 }
 
+
+
 /*text-related END*/
 
 /*buttons*/
+
+button{
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
 
 .white-button{
   display: block;
@@ -163,6 +166,15 @@ main{
   padding: 4em 1em;
 }
 
+
+.yellow-row{
+  background-color: var(--second-color);
+}
+
+.grey-row{
+  background-color: #f3f3f3;
+}
+
 /*hero row*/
 
 .hero{
@@ -237,17 +249,13 @@ main{
   width: 30em;
 }
 
-.fas{
+.fa-long-arrow-alt-right{
   color: var(--first-color);
 }
 /*city map row END*/
 
 
 /*details row*/
-
-.yellow-row{
-  background-color: var(--second-color);
-}
 
 .details-img-middle{
   width: 500px;
@@ -299,3 +307,35 @@ main{
 }
 
 /*details row end*/
+
+/*row faq*/
+
+.accordeon{
+  display: grid;
+  grid-template-columns:  0.5fr 1fr 0.5fr;
+}
+
+.accordeon ol{
+  grid-column: 2;
+  border-left: 1px solid var(--grey-color);
+}
+
+.accordeon ol li{
+}
+
+.faq-button{
+  padding: 1.5em;
+  font-weight: 400;
+  width: 100%;
+  position: relative;
+  text-align: left;
+}
+
+.fa-plus{
+  color: var(--grey-color);
+  position: absolute;
+  right: 0;
+}
+
+
+/*row faq END*/
