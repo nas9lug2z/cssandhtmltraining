@@ -39,6 +39,10 @@ h3{
   color: var(--grey-color);
 }
 
+h4{
+  font-size: 2.5em;
+}
+
 h6{
   font-size: 1em;
 }
@@ -119,6 +123,7 @@ header{
   background-color: var(--second-color);
   position: sticky;
   top: 0;
+  z-index: 1;
   padding: 1.3em;
 }
 
@@ -320,9 +325,6 @@ main{
   border-left: 1px solid var(--grey-color);
 }
 
-.accordeon ol li{
-}
-
 .faq-button{
   padding: 1.5em;
   font-weight: 400;
@@ -336,6 +338,101 @@ main{
   position: absolute;
   right: 0;
 }
-
-
 /*row faq END*/
+
+
+/*row winners*/
+
+.winners-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px;
+  gap: 100px;
+  padding-top: 3em;
+  text-align: center;
+}
+
+.winners-img{
+  width: 60%;
+}
+
+.women{
+  grid-column: 1;
+  text-align: right;
+}
+
+.women-containter{
+  text-align: center;
+}
+
+.winners-grid h4{
+  margin: 0.3em 0 0.1em;
+}
+
+.winners-grid h6{
+  margin-bottom: 0;
+}
+
+.winners-grid p{
+  margin: 0.5em 0.5em 3em 0.5em;
+}
+
+.men{
+  grid-column: 2;
+}
+
+.progress-container{
+  text-align: left;
+
+}
+
+.progress-bar-text{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.progress-bar-text p{
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.progress-percent{
+  display: block;
+  border-radius: 3px;
+  background-color: #f3f3f3;
+  color: var(--grey-color);
+  padding: 0.2em;
+  margin: 0.5em;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.progress-bar{
+  width: 100%;
+  height: 12px;
+  background-color: #f3f3f3;
+  margin-bottom: 1em;
+}
+
+.progress-bar-span{
+  display: block;
+  height: 100%;
+}
+
+.uphill{
+  background-color: var(--first-color);
+  width: 35%;
+}
+
+.downhill{
+  background-color: var(--second-color);
+  width: 15%;
+}
+
+.flat{
+  background-color: var(--third-color);
+  width: 50%;
+}
+
+/*row winners ENS/*
