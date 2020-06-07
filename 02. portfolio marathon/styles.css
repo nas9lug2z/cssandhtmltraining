@@ -345,25 +345,29 @@ main{
 
 .winners-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2;
+  grid-auto-columns: 28em;
   grid-gap: 100px;
   gap: 100px;
-  padding-top: 3em;
+  padding: 3em 15em 3em 15em;
   text-align: center;
+  justify-content: center;
+}
+
+
+.winners-img-div{
+  height: 30em;
 }
 
 .winners-img{
-  width: 60%;
+  width: 100%;
 }
 
 .women{
   grid-column: 1;
-  text-align: right;
+  align-self: center;
 }
 
-.women-containter{
-  text-align: center;
-}
 
 .winners-grid h4{
   margin: 0.3em 0 0.1em;
