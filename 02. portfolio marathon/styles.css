@@ -439,4 +439,27 @@ main{
   width: 50%;
 }
 
-/*row winners ENS/*
+/*row winners END*/
+
+
+/*row how it works*/
+
+.purple-row{
+  background-color: var(--first-color);
+  background-image: url(images/marathon-how-it-works-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.purple-row h2,
+.purple-row h3{
+  color: #fff;
+}
+
+.how-it-works-grid{
+  display: grid;
+  grid-template-columns: 4;
+}
+
+/*row how it works END*/
