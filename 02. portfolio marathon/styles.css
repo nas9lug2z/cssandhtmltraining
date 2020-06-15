@@ -458,8 +458,23 @@ main{
 }
 
 .how-it-works-grid{
-  display: grid;
+  display: flex;
   grid-template-columns: 4;
+  padding: 3em 12em;
+}
+
+.how-column h6{
+  color: var(--second-color);
+}
+
+.how-column p{
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.how-column{
+  padding: 1em;
 }
 
 /*row how it works END*/
