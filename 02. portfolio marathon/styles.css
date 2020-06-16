@@ -470,7 +470,7 @@ main{
 .how-column p{
   color: #fff;
   font-size: 1.1em;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .how-column{
@@ -478,3 +478,17 @@ main{
 }
 
 /*row how it works END*/
+
+
+/*row sponsors*/
+
+.sponsors{
+  display: flex;
+  justify-content: center;
+}
+
+.sponsors-logo{
+  padding: 1.5em 3em;
+}
+
+/*row sponsors END*/
