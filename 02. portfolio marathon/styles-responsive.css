@@ -1,0 +1,77 @@
+@media (max-width: 850px){
+  header{
+    grid-template-columns: 1fr;
+  }
+
+  .logo-img{
+    grid-column: 1;
+  }
+
+  nav{
+    grid-column: 1;
+  }
+
+  nav ul{
+    flex-direction: column;
+  }
+
+  .countdown{
+    flex-direction: column;
+  }
+
+  .map-row{
+    grid-template-columns: 1fr;
+  }
+
+  .map-text{
+    grid-column: 1;
+  }
+
+  .details-grid{
+    grid-template-columns: 1fr;
+
+  }
+
+  .details-item-img,
+  .details-item-1,
+  .details-item-2,
+  .details-item-3,
+  .details-item-4{
+    grid-column: 1;
+    text-align: center;
+  }
+
+  .winners-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .women,
+  .men{
+    grid-column: 1;
+    text-align: center;
+  }
+
+  .how-it-works-grid{
+    flex-direction: column;
+  }
+
+  .sponsors{
+    flex-direction: column;
+  }
+
+  .footer-container,
+  .footer-contact{
+    grid-template-columns: 1;
+  }
+
+  .footer-column-left,
+  .footer-column-right{
+    grid-column: 1;
+  }
+
+  .footer-contact input{
+    grid-column: 1;
+  }
+
+
+}

@@ -257,7 +257,7 @@ main{
 
 .map-img{
   grid-column: 1;
-  width: 500px;
+  max-width: 500px;
 }
 
 .map-img-div{
@@ -267,7 +267,7 @@ main{
 .map-text{
   grid-column: 2;
   text-align: left;
-  width: 30em;
+  max-width: 30em;
 }
 
 .fa-long-arrow-alt-right{
@@ -279,7 +279,7 @@ main{
 /*details row*/
 
 .details-img-middle{
-  width: 500px;
+  max-width: 500px;
 }
 
 .details-grid{
@@ -315,11 +315,13 @@ main{
 .details-item-1,
 .details-item-3{
   text-align: right;
+  grid-column: 1;
 }
 
 .details-item-2,
 .details-item-4{
   text-align: left;
+  grid-column: 3;
 }
 
 .details-item-1,
@@ -365,14 +367,16 @@ main{
   grid-auto-columns: 28em;
   grid-gap: 100px;
   gap: 100px;
-  padding: 3em 15em 3em 15em;
+  padding: 3em;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   justify-content: center;
 }
 
 
 .winners-img-div{
-  height: 30em;
+  max-height: 30em;
 }
 
 .winners-img{
@@ -475,8 +479,11 @@ main{
 
 .how-it-works-grid{
   display: flex;
-  grid-template-columns: 4;
-  padding: 3em 12em;
+  padding: 3em;
+  text-align: center;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .how-column h6{
@@ -515,7 +522,10 @@ main{
 /*row footer*/
 
 .row-footer{
-  background-image: url(images/marathon-footer-bg.jpg)
+  background-image: url(images/marathon-footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .footer-container{
