@@ -7,6 +7,7 @@
   --third-color: #fa5d5e;
   --black-color: #343434;
   --grey-color: #d2cddd;
+  --dark-color: #504c5c;
 }
 
 /*Generic CSS End*/
@@ -179,6 +180,21 @@ main{
 .grey-row{
   background-color: #f3f3f3;
 }
+
+.websites-button{
+  position: fixed;
+  right: 0;
+  top: 28em;
+  text-align: center;
+  background-color: var(--black-color);
+  padding: 0.5em;
+}
+
+.websites-button span{
+  color: #fff;
+  font-size: 0.9em;
+}
+
 
 /*hero row*/
 
@@ -492,3 +508,94 @@ main{
 }
 
 /*row sponsors END*/
+
+
+
+
+/*row footer*/
+
+.row-footer{
+  background-image: url(images/marathon-footer-bg.jpg)
+}
+
+.footer-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 2em;
+  gap: 2em;
+  max-width: 65em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-column-left{
+  grid-column: 1;
+  grid-row: 1;
+  text-align: left;
+}
+
+.social-icons{
+  display: flex;
+  gap: 0.2em;
+}
+
+.footer-column-right{
+  grid-column: 2;
+  grid-row: 1;
+  text-align: left;
+}
+
+.footer-contact{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 4;
+  grid-gap: 1em;
+  gap: 1em;
+}
+
+.footer-contact input{
+  padding: 0.7em;
+  border: none;
+}
+
+.footer-contact input:placeholder-shown{
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.footer-contact input[id="name"]{
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+.footer-contact input[id="email"]{
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.footer-contact input[id="subject"]{
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.footer-contact input[id="message"]{
+  grid-column: 1 / 3;
+  grid-row: 3;
+}
+
+.row-footer button{
+  width: 60%;
+  margin-left: 0;
+}
+
+.copyright{
+  text-align: left;
+  grid-column: 1 / 3;
+  grid-row: 3;
+  font-size: 0.9em;
+  font-weight: 500;
+  padding-top: 3em;
+}
+
+/*row footer END*/
