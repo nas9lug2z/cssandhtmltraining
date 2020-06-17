@@ -1,6 +1,7 @@
 @media (max-width: 850px){
   header{
     grid-template-columns: 1fr;
+    position: static;
   }
 
   .logo-img{
@@ -25,6 +26,11 @@
 
   .map-text{
     grid-column: 1;
+  }
+
+  .map-img,
+  .details-img-middle{
+    max-width: 80vw;
   }
 
   .details-grid{
@@ -65,13 +71,18 @@
   }
 
   .footer-column-left,
-  .footer-column-right{
+  .footer-column-right,
+  .footer-contact,
+  .row-footer{
     grid-column: 1;
   }
 
-  .footer-contact input{
+
+  .footer-contact input[id="name"],
+  .footer-contact input[id="email"],
+  .footer-contact input[id="subject"],
+  .footer-contact input[id="message"]{
     grid-column: 1;
   }
-
 
 }

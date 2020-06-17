@@ -188,6 +188,7 @@ main{
   text-align: center;
   background-color: var(--black-color);
   padding: 0.5em;
+  z-index: 2;
 }
 
 .websites-button span{
@@ -516,9 +517,6 @@ main{
 
 /*row sponsors END*/
 
-
-
-
 /*row footer*/
 
 .row-footer{
@@ -551,7 +549,7 @@ main{
 
 .footer-column-right{
   grid-column: 2;
-  grid-row: 1;
+
   text-align: left;
 }
 
